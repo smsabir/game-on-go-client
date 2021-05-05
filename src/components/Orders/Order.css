@@ -1,0 +1,66 @@
+*, html {
+    margin:0;
+    padding:0;  
+}
+html{
+    background-color: black;
+}
+
+.history-body{
+    margin: 0;
+    padding: 0;
+
+}
+.history-container{
+    margin-top: 100px;
+    width: 80%;
+    margin-left: 10%;
+    box-shadow: 1px 0px 5px slategray;
+    border-radius: 10px;
+    background-color: #adadad;
+    margin-bottom: 100px;
+}
+.history-container h3{
+    font-size:30px;
+    line-height: 30px;
+    padding: 10px;
+}
+.history-container div{
+    font-size: 14px;
+    padding: 8px;
+    overflow: auto;
+    font-weight: 500;
+    text-align: center;
+    color:rgb(36, 36, 36);
+}
+
+.history-container .history-name, .history-name-head{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: left;
+}
+.history-container .history-Qnty, .history-Qnty-head{
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+.history-container .history-price, .history-price-head, .history-date, .history-date-head{
+    float: left;
+    width: 15%;
+    padding: 10px;
+}
+
+.history-name-head, .history-Qnty-head, .history-price-head, .history-date-head, .bottom-table{
+    font-weight: 700;
+    color: rgb(114, 37, 37);
+   
+}
+
+.head-table{
+    border-bottom: 1px solid rgb(194, 194, 194);
+    
+}
+.bottom-table{
+    border-top: 1px solid rgb(194, 194, 194);
+}

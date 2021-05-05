@@ -1,0 +1,80 @@
+*, html {
+    margin:0;
+    padding:0;  
+}
+html{
+    background-color: black;
+}
+
+.checkout-body{
+    margin: 0;
+    padding: 0;
+
+}
+.checkout-container{
+    margin-top: 150px;
+    width: 60%;
+    margin-left: 20%;
+    box-shadow: 1px 0px 15px slategray;
+    background-color: #adadad;
+    border-radius: 10px;
+ 
+}
+
+.checkout-container div{
+    font-size: 14px;
+    padding: 8px;
+    overflow: auto;
+    font-weight: 400;
+    text-align: center;
+    color:rgb(36, 36, 36);
+}
+
+.checkout-container .buyPro-name, .buyPro-name-head{
+    float: left;
+    width: 35%;
+    padding: 10px;
+    text-align: left;
+}
+.checkout-container .buyPro-Qnty, .buyPro-Qnty-head{
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+.checkout-container .buyPro-price, .buyPro-price-head{
+    float: left;
+    width: 20%;
+    padding: 10px;
+}
+
+.buyPro-name-head, .buyPro-Qnty-head, .buyPro-price-head, .bottom-table{
+    font-weight: 700;
+   
+}
+
+.checkout-body button{
+    margin-top: 20px;
+    margin-left: 20%;
+    padding: 8px 12px;
+    background-color: #A41F26;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+.head-table{
+    border-bottom: 1px solid rgb(172, 172, 172);
+    color: rgb(109, 109, 109);
+    
+}
+
+.bottom-table{
+
+    color: rgb(109, 109, 109);
+    
+}
+
+.success{
+    margin-top: 10%;
+    text-align: center;
+}

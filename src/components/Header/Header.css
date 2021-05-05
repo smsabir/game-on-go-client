@@ -1,0 +1,72 @@
+.header-container {
+  overflow: hidden;
+  background-color: #040404;
+  padding: 20px 10px;
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 5%;
+}
+
+.header-container h1{
+    font-size: 25px;
+    margin: 0;
+}
+  
+
+.half-right a, h1{
+    float: left;
+    color: #adadad;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+.half-right{
+    float: right;
+    margin-right: 5%;
+}
+
+.half-right a:hover, h1:hover{
+  color: whitesmoke;
+}
+
+#login{
+  border-radius: 5px;
+  background-color:#A41F26;
+  color: white;
+  padding: 10px 25px;
+}
+
+#login:hover{
+ 
+  background-color: rgb(162, 165, 162);
+
+}
+
+@media screen and (max-width: 500px) {
+    .half-right a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .half-right {
+      float: none;
+    }
+  }
+
+  #button{
+    padding: 15px 25px;
+    color: white;
+    background-color: #A41F26;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 20px;
+    border: white;
+}
+
+#button:hover{
+    background-color: #a54045;
+}
